@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box; }
+
+html body .about-us fieldset, html body .services fieldset, html body .what-we-do fieldset, html body .contact fieldset {
+  max-width: 90rem;
+  margin: auto;
+  border: 2px solid #3c3c3c;
+  text-align: center;
+  padding-bottom: 3rem;
+  margin-bottom: 15.8rem; }
+  html body .about-us fieldset legend, html body .services fieldset legend, html body .what-we-do fieldset legend, html body .contact fieldset legend {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-bottom: 5rem; }
+  html body .about-us fieldset p, html body .services fieldset p, html body .what-we-do fieldset p, html body .contact fieldset p {
+    display: block;
+    margin: auto;
+    max-width: 45rem;
+    text-align: center;
+    line-height: 2.4rem;
+    color: #3c3c3c; }
+
+html {
+  font-size: 10px; }
+  html body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem; }
+    html body header {
+      width: 100%;
+      height: 100vh;
+      background: url("../img/hero-bg.png") no-repeat;
+      background-position: top right;
+      background-size: cover;
+      position: relative;
+      margin-bottom: 14rem; }
+      html body header .logo {
+        width: 7rem;
+        margin: auto;
+        padding-top: 20vh; }
+        html body header .logo img {
+          width: 7rem; }
+      html body header .title {
+        max-width: 60rem;
+        margin: auto;
+        color: white;
+        text-transform: uppercase;
+        padding-top: 9rem;
+        text-align: center; }
+        html body header .title-main {
+          font-size: 5.4rem;
+          letter-spacing: 0.9rem;
+          font-weight: bold;
+          margin-bottom: 5rem;
+          line-height: 6rem; }
+        html body header .title-sub {
+          font-size: 1.5rem;
+          line-height: 2rem;
+          letter-spacing: 0.1rem; }
+      html body header .scroll {
+        width: 2.4rem;
+        margin: auto;
+        position: absolute;
+        bottom: 10rem;
+        left: 50%;
+        transform: translateX(-50%); }
+        html body header .scroll img {
+          width: 2.4rem; }
+    html body .about-us fieldset .first {
+      margin-bottom: 2rem;
+      max-width: 55rem; }
+    html body .services {
+      width: 100%;
+      height: 48.8rem;
+      background: url("../img/services.png") no-repeat;
+      background-position: right;
+      background-size: cover;
+      padding-top: 11.5rem;
+      margin-bottom: 10rem; }
+      html body .services fieldset {
+        border: 2px solid white; }
+        html body .services fieldset legend {
+          color: white; }
+        html body .services fieldset p {
+          color: white;
+          max-width: 54.4rem; }
+    html body .what-we-do fieldset {
+      margin-bottom: 10rem; }
+      html body .what-we-do fieldset legend {
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+        margin-bottom: 0; }
+      html body .what-we-do fieldset img {
+        width: 8rem;
+        margin-top: 10rem; }
+      html body .what-we-do fieldset h4 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        color: #3c3c3c;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 0.5rem; }
+      html body .what-we-do fieldset p {
+        max-width: 56rem;
+        font-size: 1.4rem; }
+    html body .gallery {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 13rem; }
+      html body .gallery .flex {
+        display: flex;
+        justify-content: center; }
+        html body .gallery .flex a {
+          padding-right: 8px;
+          padding-top: 6px;
+          position: relative; }
+          html body .gallery .flex a:hover img {
+            -webkit-filter: grayscale(100%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%); }
+          html body .gallery .flex a .caption {
+            position: absolute;
+            bottom: 4.3rem;
+            left: 4.3rem;
+            color: white;
+            text-transform: uppercase;
+            font-size: 34px;
+            letter-spacing: 5px;
+            font-weight: bold; }
+          html body .gallery .flex a .left {
+            left: 15rem; }
+    html body .contact fieldset {
+      margin-bottom: 8rem; }
+      html body .contact fieldset legend {
+        padding-left: 6.5rem;
+        padding-right: 6.5rem; }
+      html body .contact fieldset p {
+        max-width: 54rem;
+        margin-bottom: 4rem; }
+      html body .contact fieldset button {
+        width: 395px;
+        height: 58px;
+        background-color: #3c3c3c;
+        border: 2px solid #3c3c3c;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        margin-bottom: 2rem; }
+        html body .contact fieldset button:hover, html body .contact fieldset button:active {
+          background-color: black;
+          border: 2px solid #3c3c3c; }
+    html body footer {
+      margin-bottom: 8rem;
+      display: flex;
+      justify-content: center; }
+      html body footer img {
+        fill: #3c3c3c;
+        padding-right: 3.5rem; }
