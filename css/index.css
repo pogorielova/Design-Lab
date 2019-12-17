@@ -155,7 +155,7 @@ html {
     html body footer {
       margin-bottom: 8rem;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       html body footer img {
-        fill: #3c3c3c;
         padding-right: 3.5rem; }
